@@ -91,6 +91,7 @@ for idx = 1:numRand
             break
         end
     end
+    
     if timeOutside(idx) > 0
         continue
     end
