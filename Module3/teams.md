@@ -1,17 +1,18 @@
 # Teams for Module 3
 
-Front Team:
-* Thao
-* Lulu
-* Arthur
+Team Lectern:
+* Manuel
+* Lorenzo
+* Jaewook
 
-Window-side Team:
-* Sarah
-* Pei
-* Gabby
+Team Max Occupancy
+* Yuna
+* Brady
 
-Art-side Team:
-* Chaorong
-* Kai
-* Negin
-* Albert
+Team Back Screen
+* Cameron
+* Matthew Hur
+
+Team Concrete Column
+* Ian
+* Nima

@@ -1,17 +1,18 @@
 # Teams for Module 2
 
-Front Team:
-* Pei
-* Kai
-* Wei
+Team Window:
+* Lorenzo
+* Jay
 
-Window-side Team:
-* Gabriela
-* Negin
-* Chaorong
+Team Concrete Wall
+* Brady
+* Manuel
 
-Art-side Team:
-* Sarah
-* Arthur
-* Lulu
-* Thao
+Team Door
+* Nima
+* Ian
+
+Team Front:
+* Cameron
+* Matt
+* Yuna

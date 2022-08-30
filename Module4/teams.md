@@ -2,18 +2,20 @@
 
 
 Front Team:
-* Thao 
-* Gabby
-* Negin
-
+* Ian
+* Matthew
 
 Window-side Team:
-* Kai
-* Pei
-* Albert
+* Jaewook
+* Manuel
 
 Art-side Team:
-* Lulu 
-* Sarah 
-* Arthur
-* Chaorong
+* Cameron 
+* Nima 
+
+Back Team:
+* Brady
+* Lorenzo
+
+
+
