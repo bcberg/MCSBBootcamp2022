@@ -21,20 +21,10 @@ Many molecules must travel from the cell surface to a pore on the nucleus (calle
 
 ## Julia in a Jupyter notebook on an external server
 
-If you wish to run Julia notebook on Allard Group server:
+Julia is a high-level language with cutting-edge on-the-fly compiling, which makes it efficient. 
 
-* Open a web browser and navigate to `redwood.math.uci.edu`
+Colab is a service provided by Google that allows you to run code on their server, through a browser. 
 
-* Type in your username (your preferred name, all lower-case) and pick any password.
+* New: To create a Julia colab notebook, follow the instructions here: [Julia on Colab](https://github.com/Dsantra92/Julia-on-Colab/blob/master/Julia_on_colab.ipynb)
 
-* Start new Terminal and type
-
-  ```
-  julia
-  using Pkg
-  Pkg.add("IJulia")
-  ```
-
-* Then logout and log back in (same username and password).
-
-* Click `New` and `Julia` (whatever version is installed)
+* OLD: To create a Julia colab notebook, follow the instructions here: [Julia Colab Notebook Template](https://github.com/ageron/julia_notebooks). The first time it runs, it will be slow. 

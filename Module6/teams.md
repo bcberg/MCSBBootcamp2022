@@ -1,18 +1,17 @@
 # Teams for Module 6
 
-Team Blue
-* Chaorong
-* Arthur
+Team Lectern:
+* Matthew
+* Manuel
 
-Team Green
-* Thao
-* Lulu
-* Albert
+Team Max Occupancy
+* Ian
+* Brady
 
-Team Fuscia
-* Kai
-* Negin
+Team Back Screen
+* Cameron
+* Nima Hur
 
-Team Taupe
-* Sarah
-* Gabby
+Team Concrete Column
+* Jaewook
+* Lorenzo

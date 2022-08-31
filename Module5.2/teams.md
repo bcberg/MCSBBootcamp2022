@@ -1,16 +1,17 @@
-# Teams for Module 5b
+# Teams for Tuesday, August 30th
 
-Front Team:
-* Arthur
-* Thao
-* Albert
+Team A
+* Jaewook
+* Manuel
 
-Window-side Team:
-* Kai
-* Pei
-* Sarah
+Team B
+* Brady
+* Matthew
 
-Art-side Team:
-* Lulu
-* Negin
-* Chaorong
+Team C
+* Lorenzo
+* Nima
+
+Team D
+* Cameron
+* Ian
