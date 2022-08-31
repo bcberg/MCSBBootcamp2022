@@ -76,12 +76,11 @@ figure(3)
 plot(T,X)
 
 % movie
-for nt = 1:numel(T)
-    figure(4);   clf;    hold on;    box on;
+for nt = numel(T)
+    figure(4);  clf;    hold on;    box on;
     plot(X(nt,1:10));
     set(gca,'ylim',[-2.5,2.5])
     xlabel('Cell')
     ylabel('Voltage')
-    title(['t = ', num2str(nt)]) 
     drawnow;
 end
