@@ -1,4 +1,5 @@
-
+% Simulation of a simplified version of the model from Guido Collins et al., 2006
+% Jun Allard allardlab.com
 
 %% Binding and unbinding of a TF to a promotor -- 1.1 Simple simulation
 
@@ -11,7 +12,7 @@ C = 1.0; % microMolar, concentration of transcription factor
 % set up a figure
 figure(11); clf; hold on; box on;
 xlabel('Time (seconds)')
-ylabel('Number of promotors in each state')
+ylabel('Number of promoters in each state')
 
 % initial conditions
 u_bound = 0;
@@ -45,7 +46,7 @@ initialCondition = [0,100];
 % set up a figure
 figure(12); clf; hold on; box on;
 xlabel('Time (seconds)')
-ylabel('Number of promotors in each state')
+ylabel('Number of promoters in each state')
 
 f =@(u,w) +kon*C*w - koff*u;
 g =@(u,w) -kon*C*w + koff*u;
@@ -90,9 +91,9 @@ end
 figure(13); clf;
 plot(paramArray,b_storage, '-b')
 xlabel('Concentration of transcription factor (uM)')
-ylabel('Number of bound promotors')
+ylabel('Number of bound promoters')
 
-%set(gca, 'xscale', 'log')
+set(gca, 'xscale', 'log')
 
 %% 1.4 Creation and destruction of mRNA and protein
 
@@ -142,8 +143,8 @@ M =@(t) [-kon*C-kon*I,  +koff*I,          koff     ,        0;
                     0,          kon*C,         kon*I, -2*koff];
 
 
-f =@(p0,pr,pa,par,m,g,t) +gamma_m(p0,pr,pa,par)   - delta_m*m;
-g =@(p0,pr,pa,par,m,g,t) +gamma_g*m - delta_g*g;
+f =@(p0,pr,pa,par,m,g,t) +gamma_m(p0,pr,pa,par)   - delta_m*m; % dmdt
+g =@(p0,pr,pa,par,m,g,t) +gamma_g*m - delta_g*g;    % dpdt
 
 initialCondition = [1,0,0,0,0,0];
 
@@ -159,6 +160,8 @@ subplot(2,1,1);hold on; box on;
 plot(T,X(:,1:4))
 xlabel('Time (seconds)')
 ylabel('Number of promotors in each state')
+
+legend('Empty', 'repressor', 'activator', 'both')
 
 subplot(2,1,2);hold on; box on;
 plot(T,X(:,5),'-r'); % red for RNA
@@ -214,6 +217,7 @@ plot(paramArray,g_storage, '-b')
 xlabel('Concentration of activating TF (uM)') 
 ylabel('Concentration of product (uM)')
 set(gca,'ylim', [0,40]);
+set(gca,'xscale','log') % uncomment to make a log plot
 
 %% 1.7 positive feedback
 
@@ -268,6 +272,7 @@ plot(paramArray,g_storage, '-b')
 xlabel('Concentration of activating TF (uM)') % EDIT FOR HW1
 ylabel('Concentration of product (uM)')
 set(gca,'ylim', [0,40]);
+set(gca,'xscale','log') % uncomment to make a log plot
 
 %%
 
